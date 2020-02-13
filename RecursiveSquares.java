@@ -36,9 +36,6 @@ public class RecursiveSquares {
     // square pattern of order n, centered on (0.5, 0.5) with side length 0.5.
 
     public static void main(String[] args) {
-        // StdDraw.setCanvasSize(2, 2);
-        // StdDraw.setXscale(0, 2);
-        // StdDraw.setYscale(0, 2);
         int n = Integer.parseInt(args[0]);
         draw(n, 0.5, 0.5, 0.5);
     }
